@@ -1,0 +1,28 @@
+#Set as global script or attached to player node
+
+var has_red_key 
+var has_blue_key 
+var has_purple_key 
+var has_key_lime_key
+
+func _ready():
+	var has_red_key = false
+	var has_blue_key = false
+	var has_purple_key = false
+	var has_key_lime_key = false
+
+func pick_up_red_key():
+	var has_red_key = true
+	return
+
+func pick_up_blue_key():
+	var has_blue_key = true
+	return
+
+func pick_up_purple_key ():
+	var has_purple_key = true
+	return
+
+func pick_up_key_lime_key ():
+	var has_key_lime_key = true
+	return
